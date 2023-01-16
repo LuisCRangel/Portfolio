@@ -452,6 +452,7 @@ h3.my-profession {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+  margin-bottom: 60px;
 }
 
 .tarjeta {
@@ -519,8 +520,7 @@ color: rgb(153, 0, 0);
     width: 70%;
   }
   .contenedor__tarjetas {
-    grid-template-columns: repeat(4, 1fr);
-    margin-bottom: 20px;
+    grid-template-columns: repeat(4, 1fr);    
   }
   .tarjeta{
     padding: 10px;
