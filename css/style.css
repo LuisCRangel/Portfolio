@@ -679,6 +679,7 @@ margin-top: 25px;
   .about .about-content .personal-info .info-item p span{
     display: block;
     margin-left: 0;
+    font-size: 13px;
   }
 }
 @media(max-width: 991px){
