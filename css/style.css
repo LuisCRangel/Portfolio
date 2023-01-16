@@ -520,6 +520,7 @@ color: rgb(153, 0, 0);
   }
   .contenedor__tarjetas {
     grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 20px;
   }
   .tarjeta{
     padding: 10px;
