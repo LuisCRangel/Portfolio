@@ -2,9 +2,9 @@
 let typed = new Typed(".typing", {
   strings: [
     "",
-    " Front-End Developer",
-    " React Developer",
-    " Software Engineer",
+    " Desarrollador Front-End",
+    " Desarrollador en React",
+    " Ingeniero de Software",
   ],
   typeSpeed: 90,
   BackSpeed: 50,
