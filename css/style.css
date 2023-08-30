@@ -312,27 +312,25 @@ h3.my-profession {
 }
 
 .home .home-img {
-  max-width: 40%;
+  max-width: 250px;
   position: relative;
+  padding: 20px;
 }
 
 .home-img {
-  background-color: #d9afd9;
-  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
   display: flex;
   flex-direction: column;
-  border: 2px solid var(--skin-color);
   justify-content: center;
   align-items: center;
   border-radius: 15px;
-  box-shadow: 3px 3px 8px gray;
+  box-shadow: 2px 2px 8px var(--skin-color);
   margin-left: 20px;
 }
 
 .home .home-img img {
   height: 200px;
   border-radius: 100%;
-  border: 1px solid rgb(184, 180, 180);
+  border: 2px solid var(--skin-color);
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -347,7 +345,7 @@ h3.my-profession {
   width: 42px;
   height: 42px;
   line-height: 42px;
-  margin: 40px 5px;
+  margin: 10px 5px;
   font-size: 25px;
   transition: 0.3s;
   text-align: center;
@@ -359,13 +357,13 @@ h3.my-profession {
   color: var(--bg-black-100);
 }
 .card-name {
-  font-size: 35px;
+  font-size: 30px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: var(--skin-color);
 }
 .card-dev {
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Poppins";
 }
 
