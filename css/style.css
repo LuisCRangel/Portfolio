@@ -731,6 +731,14 @@ margin-top: 25px;
     display: block;
     box-shadow: none;
     position: absolute;
+    margin-top: -15px;
     left: 14%;    
+  }
+  .redes{
+    display: flex;
+    justify-content: center;
+  }
+  .btn{
+    margin-bottom: 80px;
   }
 }
