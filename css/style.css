@@ -712,27 +712,28 @@ margin-top: 25px;
   }
   .home .home-info{
     flex: 0 0 100%;
-    margin-top: 350px;
+    margin-top: 320px;
     max-width: 100%;
   }
   .home .home-info h3{
-    font-size: 25px;
+    font-size: 20px;
   }
   .home .home-info span{
-    font-size: 30px;
-  }
-  .home .home-info .my-profession span{
     font-size: 25px;
   }
+  .home .home-info .my-profession span{
+    font-size: 20px;
+  }
   .home .home-info p{
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 40px;
   }
   .home .home-img{
     display: block;
     box-shadow: none;
     position: absolute;
-    left: 14%;    
+    margin-top: -15px;
+    left: 12%;    
   }
   .home .home-img img{
     width: 150px;   
