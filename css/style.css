@@ -329,12 +329,12 @@ h3.my-profession {
 
 .home .home-img img {
   height: 200px;
-  border-radius: 100%;
-  border: 2px solid var(--skin-color);
+  border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  background-color: var(--skin-color);
 }
 
 .home-img .redes a {
@@ -681,6 +681,8 @@ margin-top: 25px;
     font-size: 13px;
   }
 }
+
+
 @media(max-width: 991px){
   .contact .contact-info-item{
     flex: 0 0 50%;
@@ -693,18 +695,42 @@ margin-top: 25px;
   }
   .home .home-info{
     flex: 0 0 100%;
-    max-width: 100%;
+    max-width: 100%;    
   }
   .home .home-img{
-    display: none;
+   display: none;
   }
 }
-@media(max-width: 767px){
+
+@media(max-width: 470px){
   .contact .contact-form .col-6,
   .contact .contact-info-item,
   .about .about-content .personal-info,
   .portfolio .portfolio-item{
     flex: 0 0 100%;
     max-width: 100%;
+  }
+  .home .home-info{
+    flex: 0 0 100%;
+    margin-top: 400px;
+    max-width: 100%;
+  }
+  .home .home-info h3{
+    font-size: 25px;
+  }
+  .home .home-info span{
+    font-size: 30px;
+  }
+  .home .home-info .my-profession span{
+    font-size: 25px;
+  }
+  .home .home-info p{
+    font-size: 18px;
+  }
+  .home .home-img{
+    display: block;
+    box-shadow: none;
+    position: absolute;
+    left: 14%;    
   }
 }
