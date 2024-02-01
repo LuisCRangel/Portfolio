@@ -726,19 +726,17 @@ margin-top: 25px;
   }
   .home .home-info p{
     font-size: 18px;
+    margin-bottom: 40px;
   }
   .home .home-img{
     display: block;
     box-shadow: none;
     position: absolute;
-    margin-top: -15px;
     left: 14%;    
   }
+
   .redes{
     display: flex;
     justify-content: center;
-  }
-  .btn{
-    margin-bottom: 80px;
   }
 }
