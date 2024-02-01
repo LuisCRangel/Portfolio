@@ -734,7 +734,9 @@ margin-top: 25px;
     position: absolute;
     left: 14%;    
   }
-
+  .row{
+    margin-bottom: 50px;
+  }
   .redes{
     display: flex;
     justify-content: center;
