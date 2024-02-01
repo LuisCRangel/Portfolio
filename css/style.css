@@ -712,7 +712,7 @@ margin-top: 25px;
   }
   .home .home-info{
     flex: 0 0 100%;
-    margin-top: 400px;
+    margin-top: 350px;
     max-width: 100%;
   }
   .home .home-info h3{
@@ -733,6 +733,10 @@ margin-top: 25px;
     box-shadow: none;
     position: absolute;
     left: 14%;    
+  }
+  .home .home-img img{
+    width: 150px;   
+    height: 150px;   
   }
   .row{
     margin-bottom: 50px;
